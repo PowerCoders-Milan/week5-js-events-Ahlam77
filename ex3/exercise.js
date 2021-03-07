@@ -20,4 +20,5 @@ but2.addEventListener('click', function count(){
         
     image.setAttribute("src","ex3/image/imoji2.jpg");
     }
+    
 })
