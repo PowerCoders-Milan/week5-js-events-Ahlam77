@@ -1,11 +1,8 @@
-var output = document.getElementById("output")
-var input = document.createElement("input");
-input.setAttribute("type", "text");
-input.setAttribute("placeholder", "welcome");
-input.setAttribute("oninput", "text()")
-document.body.appendChild(input);
+var input = document.getElementById("input")
+var myDiv = document.getElementById("div");
 
-
-function text() {
+input.onkeyup = function () {
   output.innerHTML = input.value  
 }
+
+
